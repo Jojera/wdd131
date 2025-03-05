@@ -1,0 +1,60 @@
+main {
+	margin: 1rem;
+	border: 1px solid rgb(0 0 0 / .2);
+	padding: 1rem;
+	background-color: #eee;
+}
+
+header p {
+    background-color: #333;
+    color: white;
+    display: block;
+    padding: 0 50px 50px 50px;
+}
+
+div {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+}
+
+.navigation {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: black;
+	align-items: center;
+}
+.navigation li {
+	flex:1 1 auto; /* What is the difference between auto and 100% flex-basis? - turn on link borders to view */
+}
+.navigation a {
+	display: block;
+	color: #eee;
+	padding: 0.75rem;
+	text-decoration: none;
+	text-align: center;
+}
+/* this is a comment */
+
+.navigation a:hover {
+	font-weight: 700;
+	text-decoration: underline;
+	text-decoration-color: yellow;
+}
+
+aside {
+    /* float: right; */
+    margin: 1rem;
+	border: 1px solid rgb(0 0 0 / .2);
+	padding: 1rem;
+	background-color: #eee;
+}
+
+footer {
+    grid-column: 1/5;
+    text-align: center;
+    background-color: black;
+    color: white;
+    display: block;
+    padding: 0 50px 50px 50px;
+}
