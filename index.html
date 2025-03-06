@@ -3,10 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>WDD 131 - Dynamic Web Fundamentals - Jonathan Ojera</title>
+    <meta name="description" content="Jonathan Ojera | WDD 131 - Dynamic Web Fundamentals, Home page">
+    <meta name="author" content="Jonathan Ojera">
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js" defer></script>
 </head>
 <body>
-    <h1>WDD 131 Fundamentals</h1>
+    <header>
+        <h1>WDD 131: Dynamic Web Fundamentals - Jonathan Ojera</h1>
+        <nav>
+            <ul class="navigation">
+                <li><a href="https://www.linkedin.com" title="LinkedIn" target="blank">LinkedIn</a></li>
+                <li><a href="https://byupw.instructure.com/" title="Canvas">Canvas</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/study/scriptures/nt/philip/4?lang=eng" title="Favorite Scripture">Scripture</a></li>
+                <li><a href="#" title="Final Project">Final Project</a></li> 
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="card">
+            <h2 id="og">About Me</h2>
+            <div class="content">
+            <p>
+                Hi! My name is Angel. I'm a Ugandan and I love doing music for fun... This journey of coding 
+                is a treasure to me and I look forward to learning various ways of solving different problems
+                in my community using the skills I have atained from BYU.  
+            </p>
+            <img src="images/profile.jpg" id="profile" alt="my profile" width="150">
+            </div>
+            <h2 id="country">Kampala, Uganda</h2>
+            <div class="content1">
+                <figure id="flag">
+                    <img src="images/uganda.jpeg" alt="uganda" width="150">
+                    <figcaption>Official Flag of Uganda</figcaption>
+                </figure>
+                <p>Uganda is a small country in Africa. It is known as the Pearl of Africa... with one of the best sceneries that attract
+                    many tourists. We have a lot of cultures that fal under different tribes. These cultures are followed crucially.
+                </p>
+            </div>
+        </section>
+        <aside class="card">
+            <h2>Web Dev Resources</h2>
+            <ul>
+                <li><a href="https://dev.to/">Dev.to Community</a></li>
+                <li><a href="https://www.smashingmagazine.com">Smashing Magazine</a></li>
+                <li><a href="https://css-tricks.com">CSS Tricks</a></li>
+                <li><a href="https://www.w3schools.com">W3 Schools</a></li>
+                <li><a href="https://www.udemy.com">Udemy</a></li>
+                <li><a href="https://placehold.co">Image Placeholder</a></li>
+            </ul>
+        </aside>
+    </main>
+    <footer>
+        <p>©<span id="currentyear"></span> 🥁 Angel Jonathan Ojera 🥁 Uganda</p>
+        <p id="lastModified"></p>
+    </footer>
+    <!-- <script src="getdates.js" defer></script> -->
 </body>
 </html>
-<!-- this is a co mment -->

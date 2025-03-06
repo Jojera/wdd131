@@ -1,0 +1,123 @@
+h1 {
+    text-align: center;
+    background-color:  #006DAA;
+    color: white;
+    padding: 25px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+	/* border: 1px solid rgb(0 0 0 / .2); */
+	padding: 0.5rem;
+	/* background-color: #eee; */
+}
+
+.navigation {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: black;
+	align-items: center;
+}
+.navigation li {
+	flex:1 1 auto; /* What is the difference between auto and 100% flex-basis? - turn on link borders to view */
+}
+.navigation a {
+	display: block;
+	color: #eee;
+	padding: 1rem;
+	text-decoration: none;
+	text-align: center;
+}
+/* this is a comment */
+
+.navigation a:hover {
+	font-weight: 700;
+	text-decoration: underline;
+	text-decoration-color: gray;
+}
+
+h2 {
+    text-align: center;
+}
+
+#og {
+    background-color: #006DAA;
+    color: white;
+    padding: 15px;
+    border-radius: 0.5rem;
+}
+
+aside h2 {
+    background-color: #006DAA;
+    color: white;
+    padding: 15px;
+    border-radius: 0.5rem;
+    
+
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+.card {
+    
+    margin: 0.5rem;
+    border: 2px solid rgb(0 0 0 / .1); 
+    
+}
+
+aside {
+    /* margin: 1rem; */
+    /* border: 2px solid rgb(0 0 0 / .2); */
+    /* padding: 0.75rem; */
+    border-radius: 0.5rem;
+}
+
+section {
+    /* margin: 1rem; */
+    /* border: 2px solid rgb(0 0 0 / .2); */
+    /* padding: 0.75rem; */
+    border-radius: 0.5rem;
+}
+
+.content {
+    /* display: grid; */
+    /* grid-template-columns: 3fr 1fr auto; */
+    display: flex;
+
+}
+
+.content1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+figcaption {
+    text-align: center;
+}
+
+aside ul {
+    padding-top: 100px;
+}
+
+footer, header {
+    background-color: #006DAA;
+}
+
+footer {
+    padding: 20px;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+}
+
+#country {
+    display: block;
+    border-bottom: 1px solid #000;
+}
+
