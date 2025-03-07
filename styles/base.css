@@ -18,6 +18,10 @@ h1, h2 {
     font-family: "Fugaz One", serif;
 }
 
+.highlight {
+    color: yellow;
+}
+
 .navigation {
 	list-style: none;
 	display: flex;
