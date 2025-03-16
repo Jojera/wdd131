@@ -1,3 +1,8 @@
+:root {
+    --primary-color:  #006DAA;
+}
+
+
 body {
     font-family: "Roboto", serif;
 }
@@ -5,7 +10,7 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    background-color: #006DAA;
+    background-color: var(--primary-color);
 }
 
 
@@ -37,7 +42,7 @@ nav a:hover {
     position: absolute;
     top: 60px;
     right: 0;
-    background: #006DAA;
+    background: var(--primary-color);
     width: 100%;
     text-align: center;
     padding: 10px 0;
@@ -93,7 +98,7 @@ h1 {
 
 
 footer {
-    background-color: #006DAA;
+    background-color: var(--primary-color);
     text-align: center;
 }
 
