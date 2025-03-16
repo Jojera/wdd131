@@ -8,10 +8,6 @@ header {
     background-color: #006DAA;
 }
 
-p {
-    color: white;
-    font-size: larger;
-}
 
 .navbar {
     display: flex;
@@ -67,8 +63,12 @@ nav a:hover {
     content: "✖"; /* Change to 'X' when menu is active */
 }
 
-h1 {
+h2 {
     text-align: center;
+}
+
+h1 {
+    color: white;
 }
 
 .container {
