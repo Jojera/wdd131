@@ -1,5 +1,5 @@
 :root {
-    --primary-color:  #006DAA;
+    --primary-color:  #005488;
 }
 
 
@@ -100,5 +100,6 @@ h1 {
 footer {
     background-color: var(--primary-color);
     text-align: center;
+    color: white;
 }
 
