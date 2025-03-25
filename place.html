@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Place</title>
+    <meta name="description" content="Jonathan Ojera | WDD 131 - Country Place">
+    <meta name="author" content="Jonathan Ojera">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>United Kingdom</h1>
+    </header>
+
+    <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/uk-image.webp" media="(min-width: 768px)">
+                <source srcset="images/uk-image2.webp" media="(min-width: 480px)">
+                <img src="images/uk-image2.webp" alt="Hero image of the place">
+            </picture>
+        </div>
+
+        <div class="content">
+            <div class="data">
+                <h2><span>Data</span></h2>
+                <p><strong>Area:</strong> 243,610km²</p>
+                <p><strong>Population:</strong> 67 million</p>
+                <p><strong>Capital:</strong> London</p>
+                <p><strong>Languages:</strong> English (Official), Welsh (wales)</p>
+                <p><strong>Currency:</strong> British Pound Sterling</p>
+                <p><strong>Time Zone:</strong> GMT (UTC+0) in winter, BST (UTC+1) in summer</p>
+                <p><strong>Calling Code:</strong> +44</p>
+                <p><strong>Internet TLD:</strong> .uk</p>
+            </div>
+
+            <div class="weather">
+                <h2>Weather<span class="weather-icon"></span></h2> 
+                <p>Conditions: <span id="conditions">loading...</span></p>
+                <p>Temperature: <span id="temperature">10</span>°C</p>
+                <p>Wind: <span id="wind-speed">5</span> km/h</p>
+                <p>Wind Chill: <span id="wind-chill">N/A</span></p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>©<span id="currentyear"></span> 🥁 Angel Jonathan Ojera 🥁 Uganda</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
+
+
