@@ -105,7 +105,6 @@ footer {
     #weather-title::after {
         content:"⛅";
         font-size: 1.5rem;
-        
     }
 
     .weather-icon {
