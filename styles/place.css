@@ -56,17 +56,15 @@ h2 {
     border-radius: 10px;
     text-align: center;
     color: black;
-}  
+}
+
+
 
 
 
 /* } */
 /* Weather Icon */
-.weather-icon::after {
-    font-size: 1.5rem;
-    display: block;
-    content: "⛅";
-}
+
 
 footer {
     background-color: var(--primary-color);
@@ -104,8 +102,15 @@ footer {
     } 
     
     /* SVG for large view */
-    .weather-icon::after {
+    #weather-title::after {
         content:"⛅";
+        font-size: 1.5rem;
+        
     }
+
+    .weather-icon {
+        display: none;
+    }
+
 }
 
