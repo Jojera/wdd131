@@ -1,0 +1,112 @@
+:root {
+    --primary-color:  #005488;
+}
+
+
+body {
+    font-family: "Roboto", serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--primary-color);
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 15px 20px;
+}
+
+nav a:hover {
+	font-weight: 400;
+	text-decoration: underline;
+	text-decoration-color: gray;
+}
+
+/* Hamburger Button */
+.hamburger {
+    font-size: 30px;
+    cursor: pointer;
+    display: block;  /* Visible on small screens */
+}
+
+
+.nav-links {
+    display: none; /* Navigation Links (Hidden by Default) */
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background: var(--primary-color);
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.nav-links.active {
+    display: flex;
+}
+
+.nav-links li {
+    padding: 10px 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 15px;
+    display: block;
+}
+
+.hamburger.active {
+    content: "✖"; /* Change to 'X' when menu is active */
+}
+
+h2 {
+    text-align: center;
+}
+
+h1 {
+    color: white;
+}
+
+.container {
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.temple {
+    display: block;
+    width: 90%;
+    max-width: 600px;
+    margin: 10px auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.caption {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.temple-card img {
+    width: 320px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+
+footer {
+    background-color: var(--primary-color);
+    text-align: center;
+    color: white;
+}
+
