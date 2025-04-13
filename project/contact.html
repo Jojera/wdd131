@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <meta name="description" content="Jonathan Ojera - Contact Us Page">
+    <meta name="author" content="Jonathan Ojera">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/project.css">
+    <script src="scripts/project.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="images/drum-logo.jpg" alt="logo" class="logo">
+        <h1>Contact Us</h1>
+        <nav class="navbar">
+            <div class="hamburger" id="hamburger">&#9776;</div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="form">
+            <h2>Get in Touch</h2>
+            <p>If you have any questions, feel free to reach out to us using the form below.</p>
+            <form action="review.html" method="get">
+                <!-- Product Name -->
+                <label for="product">Product Name</label>
+                <select id="product" name="product" required>
+                  <option value="" disabled selected>Select a Product ...</option>
+                </select>
+          
+                <!-- Overall Rating -->
+                <label>Overall Rating</label>
+                <div class="rating">
+                  <label><input type="radio" name="rating" value="1" required>☆</label>
+                  <label><input type="radio" name="rating" value="2">☆☆</label>
+                  <label><input type="radio" name="rating" value="3">☆☆☆</label>
+                  <label><input type="radio" name="rating" value="4">☆☆☆☆</label>
+                  <label><input type="radio" name="rating" value="5">☆☆☆☆☆</label>
+                </div>
+          
+                <!-- Date of Installation -->
+                <label for="installDate">Date of Installation</label>
+                <input type="date" id="installDate" name="installDate" required>
+          
+                <!-- Useful Features -->
+                <fieldset>
+                  <legend>Which features did you find useful in the product? <br><small>(Check all that apply)</small></legend>
+                  <label><input type="checkbox" name="features" value="Durability" id="durability"> Durability</label>
+                  <label><input type="checkbox" name="features" value="Ease of Use" id="ease"> Ease of Use</label>
+                  <label><input type="checkbox" name="features" value="Performance" id="performance"> Performance</label>
+                  <label><input type="checkbox" name="features" value="Design" id="design"> Design</label>
+                </fieldset>
+          
+                <!-- Written Review -->
+                <label for="review">Written Review <span>(Optional)</span></label>
+                <textarea id="review" name="review" rows="4" cols="50"></textarea>
+                
+                <!-- name -->
+                <label for="username">Your Name <span>(Optional)</span></label>
+                <input type="text" id="username" name="username">
+          
+                <!-- Submit Button -->
+                <input type="submit" value="Post Review">
+              </form>
+        </section>
+    </main>
+    <footer class="end">
+        <p>©<span id="currentyear"></span> 🥁 Angel Jonathan Ojera 🥁 Uganda</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>

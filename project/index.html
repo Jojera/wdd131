@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <meta name="description" content="Jonathan Ojera | WDD 131 - Project">
+    <meta name="author" content="Jonathan Ojera">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/project.css">
+    <script src="scripts/project.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="images/drum-logo.jpg" alt="logo" class="logo">
+        <h1>The Art Of Drumming</h1>
+        <nav class="navbar">
+            <div class="hamburger" id="hamburger">&#9776;</div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>    
+    </header>
+    <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/drum-pic2.jpg" media="(min-width: 768px)">
+                <source srcset="images/background-pic.jpg" media="(min-width: 480px)">
+                <img src="images/background-pic.jpg" alt="Hero image of the drums" loading="lazy">
+            </picture>
+        </div>
+
+        <div class="content">
+            <div class="description">
+                <h3>The Art of Drumming</h3>
+                <p>
+                    This name reflects the core focus of the site, which is the exploration of the musical, 
+                    cultural, and educational aspects of drums and drumming. It emphasizes the 
+                    artistic side of drumming and how it's the heartbeat of music.
+                </p>
+            </div>
+            <div class="data">
+                <h2><span>Site Purpose</span></h2>
+                <p>
+                    The purpose of this site is to share knowledge and passion for drumming. 
+                    It will explore the history and cultural significance of drums, introduce different types of drums, 
+                    and provide learning resources and tips for aspiring drummers.
+                </p>
+                <img src="images/snare-pic.jpg" alt="Snare drum" loading="lazy" class="snare">
+            </div>
+
+            <div class="scenarios">
+                <h2>Scenarios</h2> 
+                <ul>
+                    <li>What are the main types of drums and how are they used in different music genres?</li>
+                    <li>Where can I find beginner tips to start learning the drums?</li>
+                </ul>
+                <img src="images/vic-firth.jpg" alt="sticks" loading="lazy" class="snare">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>©<span id="currentyear"></span> 🥁 Angel Jonathan Ojera 🥁 Uganda</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
+
+
